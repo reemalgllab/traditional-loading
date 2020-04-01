@@ -1,0 +1,109 @@
+.main{
+	
+	margin-left:500px;
+	margin-top: 20%;
+}
+div{
+	display: inline-block;
+}
+#firstcircle{
+width: 30px;
+height: 30px;
+background-color: #424242;
+border-radius: 100%;
+animation :movingfirstcircle 2s 1 linear;
+margin-left:15px;
+}
+#secondcircle{
+width: 30px;
+height: 30px;
+background-color: #424242;
+border-radius: 100%;
+animation :movingsecondcircle 2s 1 linear;
+animation-delay: 1s;
+margin-left:15px;
+}
+#thirdcircle{
+width:30px;
+height:30px;
+background-color:#424242;
+border-radius: 100%;
+animation :movingthirdcircle 2s 1 linear;
+animation-delay: 2s;
+margin-left:15px;
+}
+#forthcircle{
+width: 30px;
+height: 30px;
+background-color:#424242;
+border-radius: 100%;
+animation :movingfourthcircle 2s 1 linear;
+animation-delay: 3s;
+margin-left:15px;
+}
+#fifthcircle{
+width: 30px;
+height: 30px;
+background-color:#424242;
+border-radius: 100%;
+animation :movingfifthcircle 2s 1 linear;
+animation-delay: 4s;
+margin-left:15px;
+}
+#sixthcircle{
+width: 30px;
+height: 30px;
+background-color: #424242;
+border-radius: 100%;
+animation :movingsixthcircle 2s 1 linear;
+animation-delay: 5s;
+margin-left:15px;
+}
+@keyframes movingfirstcircle{
+from{
+transform: scale(2,2);
+}
+to{
+transform: scale(1,1);
+}
+}
+@keyframes movingsecondcircle{
+from{
+transform: scale(2,2);
+}
+to{
+transform: scale(1,1);
+}
+}
+@keyframes movingthirdcircle{
+from{
+transform: scale(2,2);
+}
+to{
+transform: scale(1,1);
+}
+}
+@keyframes movingfourthcircle{
+from{
+transform: scale(2,2);
+}
+to{
+transform: scale(1,1);
+}
+}
+@keyframes movingfifthcircle{
+from{
+transform: scale(2,2);
+}
+to{
+transform: scale(1,1);
+}
+}
+@keyframes movingsixthcircle{
+from{
+transform: scale(2,2);
+}
+to{
+transform: scale(1,1);
+}
+}
